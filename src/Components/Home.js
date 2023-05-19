@@ -30,7 +30,7 @@ const Home = () => {
         <Tabs selected={1}>
              <div className="row" style={{marginTop:'4%'}}>
              <div className="list col-lg-2 col-md-2 col-sm-12 " >
-              <div className="tab_sticky mt-2 mb-4">
+              <div className="tab_sticky tabs mt-2 mb-4">
               <TabList className="">
                <Tab>
                   <Button className="tab-btn bg-dark" style={{padding:'10px'}}>Burger</Button>

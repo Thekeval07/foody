@@ -29,13 +29,14 @@ const Header = () => {
                 borderRadius: "100px",
                 top: "20%",
                 boxShadow: "0.5px 0.1px 2px rgb(151,147,147)",
+                
               }}
             ></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
             id="basic-navbar-nav "
-            className="basic-navbar"
+            className="basic-navbar-1"
             style={{ justifyContent: "end" }}
           >
             <Nav className=" items">

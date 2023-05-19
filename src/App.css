@@ -11,21 +11,42 @@
 
 .list {
   /* width: 13rem; */
-  background-color: #070707;
+  background-color: aliceblue;
   
   
   padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .tabs ul{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .tabs ul li{
+    padding: 5px;
+    max-width: 210px;
+  }
+
+  .tabs button {
+    width: 120px !important;
+  }
+  .list{
+    margin-top: 25px;
+  }
 }
 .list ul li{
   list-style: none;
 }
 .tab_sticky{
   position: sticky;
-  top: 10%;background-color: #070707;
+  top: 10%;
+  background-color: #070707;
 }
 .list ul{
   padding: 0;
-  margin-top: 10%;
+ 
 }
  
 
@@ -38,6 +59,7 @@
 }
 .basic-navbar-nav{
   justify-content: center;
+  background-color: #070707;
 }
 .tab-btn{
   display: inline-block;
@@ -78,7 +100,7 @@
     text-align: center;
 }
 .navbar{
-  background-color: white;
+  background-color: rgb(5, 5, 5);
   height: 75px;
   box-shadow: 0.5px 0.1px 2px rgb(165, 162, 162);
   
@@ -308,4 +330,16 @@ a{
 }
 .text:hover{
   color: #070707;
+}
+
+@media only screen and (max-width:992px) {
+.basic-navbar-1{
+  background-color: #fff !important;
+  border: 1.5px solid black;
+  z-index: 1;
+}
+.nav-link{
+  border: 1.5px solid black;
+  margin: 0;
+}
 }
