@@ -16,7 +16,7 @@ const Sides = () => {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3/add/14c02f3d-eaa0-4df1-910d-de1c1540783d/5add974f-9506-4f0f-ac2f-4d21846dafc2'>
               <div className="card-body">
                 <div className="card-img-actions">
                 {/* <div className="inner"> */}
@@ -49,7 +49,7 @@ const Sides = () => {
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                 </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3/add/14c02f3d-eaa0-4df1-910d-de1c1540783d/5add974f-9506-4f0f-ac2f-4d21846dafc2' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>
@@ -58,7 +58,7 @@ const Sides = () => {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3/add/f3835752-2a1d-4c67-9725-ead6fab62097/5add974f-9506-4f0f-ac2f-4d21846dafc2'>
               <div className="card-body">
                 <div className="card-img-actions">
                 {/* <div className="inner"> */}
@@ -91,7 +91,7 @@ const Sides = () => {
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                 </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3/add/f3835752-2a1d-4c67-9725-ead6fab62097/5add974f-9506-4f0f-ac2f-4d21846dafc2' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>
@@ -100,7 +100,7 @@ const Sides = () => {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3#ddb6dca17-9034-4091-8309-6ff832f19f1bdc8d9cdbf-617d-4fea-8438-fe8b14219a48'>
               <div className="card-body">
                 <div className="card-img-actions">
                 {/* <div className="inner"> */}
@@ -135,7 +135,7 @@ const Sides = () => {
                   <i className="fa fa-star star" />
                 </div>
 
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3#ddb6dca17-9034-4091-8309-6ff832f19f1bdc8d9cdbf-617d-4fea-8438-fe8b14219a48' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>

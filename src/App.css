@@ -34,9 +34,11 @@
   margin-top: 5%;
 }
 .product{
-  margin-top: 3%;
+  margin-top: 2%;
 }
-
+.basic-navbar-nav{
+  justify-content: center;
+}
 .tab-btn{
   display: inline-block;
   border: none;
@@ -64,6 +66,11 @@
   z-index: 1030;
   
 }
+
+.text{
+  margin: 0;
+  font-size: 15px;
+}
 .head{
   color: #f1f1f5;
     background-color: black;
@@ -71,25 +78,100 @@
     text-align: center;
 }
 .navbar{
-  box-shadow: 0.5px 1.5px 4px rgb(95, 92, 92);
+  background-color: white;
+  height: 75px;
+  box-shadow: 0.5px 0.1px 2px rgb(165, 162, 162);
   
 }
+.items{
+  text-align: center;
+}
+
 .logo{
-  font-weight: bold;
-    font-size: 30px;
-    color: currentcolor;
+  
+  top: 11% !important; 
+  border-radius: 100px;
+  width: 124px;
+  box-shadow: 0.5px 0.1px 2px rgb(151, 147, 147);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.basic-navbar{
+  color: #070707;
+  background-color: #fff;
 }
 .nav-link{
-  color: rgb(82, 75, 75);
-  font-weight: 700;
-  font-size: 20px;
-  justify-content: right;
+  color: rgb(29, 25, 25);
+  font-weight: 700; 
+  margin: 10px 10px;
+  font-size: 15px;
 }
 .navbar-nav{
   justify-content: right;
 }
 .nav-link:hover{
-  color: #070707;
+  color: #f8911c;
+}
+.footer-color{
+  background-color: #282828;
+}
+.user-icon{
+  color: #f8911c;
+  font-size: 30px;
+  margin: 10px;
+}
+label, ::placeholder{
+  font-weight: bold;
+  margin-left: 10px;
+}
+.border{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* input, textarea{
+  margin: 10px;
+    padding: 10px;
+} */
+
+.form-header{
+  font-weight: bold;
+  color: red;
+
+}
+.form-p{
+  text-align: end;
+}
+.form-margin{
+  margin-right: 50px;
+}
+.form-btn{
+  width: 20%;
+  position: absolute;
+  right: 40%;
+  color: black;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #f8911c;
+  font-size: 20px;
+}
+.form-btn{
+ background-color: #f8911c !important; 
+ color: #fff;
+}
+.icons{
+  display: contents;
+}
+.container-about h1{
+text-align: center;
+font-weight: bold;
+}
+.form-event{
+  font-weight: bold;
 }
 
 .collapse ul li{
@@ -220,10 +302,9 @@ a{
   font-size: 18px;
     color: currentcolor;
 }
-.text{
-  
-  color: rgb(95, 92, 92);
-  font-weight: 600;
+.footer-logo{
+  width: 150px;
+  margin-top: 0px;
 }
 .text:hover{
   color: #070707;

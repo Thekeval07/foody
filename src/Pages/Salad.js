@@ -12,7 +12,7 @@ const Salad = () => {
           <div className="col-md-4 mt-2">
           
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3#d79517f6e-e11b-42fd-94bd-3f9be16c9254d3a6d4a63-4eeb-4cd0-ab9c-849f9ad3ee71'>
               <div className="card-body">
                 <div className="card-img-actions">
                   
@@ -29,7 +29,7 @@ const Salad = () => {
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
                     <a href="#" className="text-default mb-2" data-abc="true">
-                      The Southern Damsel 
+                     Garden 
                     </a>
                   </h6>
                   <a href="#" className="text-muted" data-abc="true">
@@ -44,7 +44,7 @@ const Salad = () => {
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                 </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3#d79517f6e-e11b-42fd-94bd-3f9be16c9254d3a6d4a63-4eeb-4cd0-ab9c-849f9ad3ee71' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>
@@ -53,7 +53,7 @@ const Salad = () => {
           </div>
           <div className="col-md-4 mt-2">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3#d79517f6e-e11b-42fd-94bd-3f9be16c9254d3a6d4a63-4eeb-4cd0-ab9c-849f9ad3ee71'>
               <div className="card-body">
                 <div className="card-img-actions">
                   <img
@@ -69,7 +69,7 @@ const Salad = () => {
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
                     <a href="#" className="text-default mb-2" data-abc="true">
-                      Buffalo Chicken Grill Cheese 
+                      Mix Green  
                     </a>
                   </h6>
                   <a href="#" className="text-muted" data-abc="true">
@@ -83,7 +83,7 @@ const Salad = () => {
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                 </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3#d79517f6e-e11b-42fd-94bd-3f9be16c9254d3a6d4a63-4eeb-4cd0-ab9c-849f9ad3ee71' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>

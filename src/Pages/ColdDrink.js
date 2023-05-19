@@ -3,6 +3,7 @@ import drink_1 from '../image/s_1.jpg'
 import drink_2 from '../image/v_1.jpg'
 import drink_3 from '../image/c_1.jpg'
 import drink_4 from '../image/sprite.jpg'
+import drink_5 from '../image/poland.jpg'
 import { Link } from "react-router-dom";
 const ColdDrink = () => {
   return (
@@ -16,7 +17,7 @@ const ColdDrink = () => {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3/add/ec0da94b-4ca3-4576-acc5-8349de4f6293/393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
               <div className="card-body">
                 <div className="card-img-actions">
                   {/* <div className="inner"> */}
@@ -34,14 +35,14 @@ const ColdDrink = () => {
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
                     <a href="#" className="text-default mb-2" data-abc="true">
-                      MAC & CHEESE
+                      Vanilla Milkshake
                     </a>
                   </h6>
                   <a href="#" className="text-muted" data-abc="true">
-                    3 cheese mac cheese
+                    
                   </a>
                 </div>
-                <h3 className="mb-0 font-weight-semibold">$4.50</h3>
+                <h3 className="mb-0 font-weight-semibold">$6.00</h3>
 
                 <div>
                   <i className="fa fa-star star" />
@@ -49,7 +50,7 @@ const ColdDrink = () => {
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                 </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3/add/ec0da94b-4ca3-4576-acc5-8349de4f6293/393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>
@@ -58,7 +59,7 @@ const ColdDrink = () => {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
               <div className="card-body">
                 <div className="card-img-actions">
                   {/* <div className="inner"> */}
@@ -76,22 +77,21 @@ const ColdDrink = () => {
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
                     <a href="#" className="text-default mb-2" data-abc="true">
-                      Fries
+                      Strawberry Milkshake 
                     </a>
                   </h6>
                   <a href="#" className="text-muted" data-abc="true">
-                    Tater tots, Masala Waffle fries, Masala Potato Chips, Sweet
-                    Potato Fried, Make any of your fries loaded with toppings
+                    
                   </a>
                 </div>
-                <h3 className="mb-0 font-weight-semibold">$6.50</h3>
+                <h3 className="mb-0 font-weight-semibold">$6.00</h3>
                 <div>
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                 </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>
@@ -100,7 +100,7 @@ const ColdDrink = () => {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
               <div className="card-body">
                 <div className="card-img-actions">
                   {/* <div className="inner"> */}
@@ -118,15 +118,14 @@ const ColdDrink = () => {
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
                     <a href="#" className="text-default mb-2" data-abc="true">
-                      Wings
+                     Chocolate Milkshake 
                     </a>
                   </h6>
                   <a href="#" className="text-muted" data-abc="true">
-                    WaterMelon, Mango chili lime rub*Z ,carolina bbg, Sweet Thai
-                    chili, Lemon Pepper, Mango Haberno, Hot, Hotter,
+                    
                   </a>
                 </div>
-                <h3 className="mb-0 font-weight-semibold">$15.00</h3>
+                <h3 className="mb-0 font-weight-semibold">$6.00</h3>
                 <div>
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
@@ -134,7 +133,7 @@ const ColdDrink = () => {
                   <i className="fa fa-star star" />
                 </div>
 
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>
@@ -143,7 +142,7 @@ const ColdDrink = () => {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3'>
+            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
               <div className="card-body">
                 <div className="card-img-actions">
                   {/* <div className="inner"> */}
@@ -161,15 +160,14 @@ const ColdDrink = () => {
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
                     <a href="#" className="text-default mb-2" data-abc="true">
-                      Wings
+                     Sprite 
                     </a>
                   </h6>
                   <a href="#" className="text-muted" data-abc="true">
-                    WaterMelon, Mango chili lime rub*Z ,carolina bbg, Sweet Thai
-                    chili, Lemon Pepper, Mango Haberno, Hot, Hotter,
+                    
                   </a>
                 </div>
-                <h3 className="mb-0 font-weight-semibold">$15.00</h3>
+                <h3 className="mb-0 font-weight-semibold">$1.50</h3>
                 <div>
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
@@ -177,7 +175,49 @@ const ColdDrink = () => {
                   <i className="fa fa-star star" />
                 </div>
 
-                <Link to='https://www.toasttab.com/homekitchen/v3' type="button" className="btn btn-outline-dark" >
+                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
+                  View Product 
+                </Link>
+              </div>
+              </Link>
+            </div>
+          </div>
+          <div className="col-md-4 col-sm-6">
+            <div className="card">
+            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
+              <div className="card-body">
+                <div className="card-img-actions">
+                  {/* <div className="inner"> */}
+                    <img
+                      src={drink_5}
+                      className="card-img img-fluid"
+                      width={96}
+                      height={350}
+                      alt=""
+                    />
+                  {/* </div> */}
+                </div>
+              </div>
+              <div className="card-body bg-light text-center">
+                <div className="mb-2">
+                  <h6 className="font-weight-semibold mb-2">
+                    <a href="#" className="text-default mb-2" data-abc="true">
+                     Poland Springs
+                    </a>
+                  </h6>
+                  <a href="#" className="text-muted" data-abc="true">
+                    
+                  </a>
+                </div>
+                <h3 className="mb-0 font-weight-semibold">$1.50</h3>
+                <div>
+                  <i className="fa fa-star star" />
+                  <i className="fa fa-star star" />
+                  <i className="fa fa-star star" />
+                  <i className="fa fa-star star" />
+                </div>
+
+                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
                   View Product 
                 </Link>
               </div>
