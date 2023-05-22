@@ -8,7 +8,7 @@ const About = () => {
   const [eventDate, setEventDate] = useState('');
   const [eventTime, setEventTime] = useState('');
   const [eventDescription, setEventDescription] = useState('');
-  const [errorMessage, setErrorMessage] = useState("");
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -63,7 +63,7 @@ const About = () => {
     setEventDate('');
     setEventTime('');
     setEventDescription('');
-    setErrorMessage("");
+   
   };
   return (
     <div>

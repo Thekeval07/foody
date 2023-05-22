@@ -28,11 +28,11 @@ const KidManu = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href="#" className="text-default mb-2" data-abc="true">
+                    <a href=" " className="text-default mb-2" data-abc="true">
                       Burger Slider  
                     </a>
                   </h6>
-                  <a href="#" className="text-muted" data-abc="true">
+                  <a href=" " className="text-muted" data-abc="true">
                     Deep fried chicken sandwich marinted in buttermilk, and lettuce, tomato and mayo
                   </a>
                 </div>
@@ -68,11 +68,11 @@ const KidManu = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href="#" className="text-default mb-2" data-abc="true">
+                    <a href=" " className="text-default mb-2" data-abc="true">
                       Chicken Slider 
                     </a>
                   </h6>
-                  <a href="#" className="text-muted" data-abc="true">
+                  <a href=" " className="text-muted" data-abc="true">
                       smoked chicken signature buffalo sauce and american cheess                    
                   </a>
                 </div>
