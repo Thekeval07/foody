@@ -113,16 +113,13 @@
   
   top: 11% !important; 
   border-radius: 100px;
-  width: 130px;
+  width: 124px;
   box-shadow: 0.5px 0.1px 2px rgb(151, 147, 147);
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  width: 130px;
-  position: absolute;      
-  top: 20%;
-             
+  
 }
 .basic-navbar{
   color: #070707;
