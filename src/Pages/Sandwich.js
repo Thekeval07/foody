@@ -30,11 +30,11 @@ const Sandwich = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       The Southern Damsel
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     Deep fried chicken sandwich marinted in buttermilk, and
                     lettuce, tomato and mayo
                   </a>
@@ -71,11 +71,11 @@ const Sandwich = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       Buffalo Chicken Grill Cheese
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     smoked chicken signature buffalo sauce and american cheess
                   </a>
                 </div>
@@ -110,11 +110,11 @@ const Sandwich = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       Eastem
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     smoked pull pork with "carolina" style mustarn/vinegar and
                     red pepper sauce, served on a brioche roll, wit colesaw
                   </a>
@@ -151,12 +151,12 @@ const Sandwich = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" "  className="text-default mb-2" data-abc="true">
+                    <a href="#"  className="text-default mb-2" data-abc="true">
                       cowbor brisket
                     </a>
                     
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     smoked krisket seared with nonons, green pepper cheese,
                     served on a sub rolleither with gravy, or you choose
                   </a>
@@ -193,11 +193,11 @@ const Sandwich = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       The Tandoori
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     Chicken marrinated ginger, garlic, homemade spices, topped
                     with lettuce, tommato, onion, cheese, adn zesty chutney{" "}
                   </a>

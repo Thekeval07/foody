@@ -34,11 +34,11 @@ const ColdDrink = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="" className="text-default mb-2" data-abc="true">
                       Vanilla Milkshake
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="" className="text-muted" data-abc="true">
                     
                   </a>
                 </div>
@@ -76,11 +76,11 @@ const ColdDrink = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="" className="text-default mb-2" data-abc="true">
                       Strawberry Milkshake 
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="" className="text-muted" data-abc="true">
                     
                   </a>
                 </div>
@@ -117,11 +117,11 @@ const ColdDrink = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="" className="text-default mb-2" data-abc="true">
                      Chocolate Milkshake 
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="" className="text-muted" data-abc="true">
                     
                   </a>
                 </div>
@@ -159,11 +159,11 @@ const ColdDrink = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="" className="text-default mb-2" data-abc="true">
                      Sprite 
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="" className="text-muted" data-abc="true">
                     
                   </a>
                 </div>
@@ -201,11 +201,11 @@ const ColdDrink = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="" className="text-default mb-2" data-abc="true">
                      Poland Springs
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="" className="text-muted" data-abc="true">
                     
                   </a>
                 </div>

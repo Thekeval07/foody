@@ -1,9 +1,7 @@
 import React from "react";
 
 import bur2 from "../image/burger2.jpg";
-
 import bur4 from "../image/burger_4.jpg";
-
 import bur6 from "../image/b6.jpg";
 import { Link } from "react-router-dom";
 
@@ -36,11 +34,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       The All American
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     Lettuce, tomato,onions, lettuce pickles,cheese
                   </a>
                 </div>
@@ -75,11 +73,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       The Ferris Wheel
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     Stuffed with mozzarella and peooroni topped with marinara
                     sauce, provolone and mozzrella cheese
                   </a>
@@ -117,11 +115,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       The Needham Melt
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     With swiss chees, sauted onions, truffle mushrooms
                   </a>
                 </div>
@@ -159,11 +157,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       The Fighter
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     pepperjack, fried jalapeno, habanero jam, topped with a
                     crunchy slaw
                   </a>
@@ -202,11 +200,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       Trukey Burger
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     chedder cheese , lettuce, tomato, pickles and spicy mayo
                   </a>
                 </div>
@@ -244,11 +242,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       Masala Veggie Burger(Gf/V)
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     Homemade vaggie burger, lettuce, tomato, onions sweet
                     tamarind and
                   </a>
@@ -287,11 +285,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       The Morining Burger
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     cooked agg, baocn amd avacado and cheese
                   </a>
                 </div>
@@ -329,11 +327,11 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href=" " className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default mb-2" data-abc="true">
                       Bourbon Steak Tip Burger
                     </a>
                   </h6>
-                  <a href=" " className="text-muted" data-abc="true">
+                  <a href="#" className="text-muted" data-abc="true">
                     steak tips, sauteed onions, cheese with a sweet/savory
                     bourbon sauce
                   </a>
