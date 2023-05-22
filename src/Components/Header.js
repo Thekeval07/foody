@@ -9,6 +9,7 @@ import { CgShoppingCart } from "react-icons/cg";
 
 import { Link } from "react-router-dom";
 import logo from "../image/logo.png";
+import Profile from "../Pages/Profile";
 
 const Header = () => {
   return (
@@ -61,12 +62,16 @@ const Header = () => {
           >
             
             <div className="icons">
+            <Nav.Link as={Link} to={"profile"}>
               <div className="user-icon">
-                <FaUserCircle></FaUserCircle>
+               <FaUserCircle></FaUserCircle>
               </div>
+              </Nav.Link>
+              <Nav.Link as={Link} to={"cart"}>
               <div className="user-icon">
                 <CgShoppingCart></CgShoppingCart>
               </div>
+              </Nav.Link>
             </div>
             </Navbar.Collapse>
         </Container>
