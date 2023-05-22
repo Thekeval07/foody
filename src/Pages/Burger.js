@@ -14,7 +14,6 @@ const Burger = () => {
       <div className="container d-flex justify-content-center  mb-50">
         <div className="row card-row">
           <h1 className="product-name">BURGER</h1>
-
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="card">
               <Link to='https://www.toasttab.com/homekitchen/v3/add/9bdce791-b88f-4d48-b565-304002bb5464/291fb3eb-b58f-4f4c-9231-0b4206b91030'>
@@ -89,10 +88,7 @@ const Burger = () => {
                   <i className="fa fa-star star" />
                   <i className="fa fa-star star" />
                 </div>
-                <Link to='toasttab.com/homekitchen/v3/add/20492959-1af8-4eb3-8fae-cff543892a28/291fb3eb-b58f-4f4c-9231-0b4206b91030' type="button" className="btn btn-outline-dark" >
-                  
-                    
-                  
+                <Link to='toasttab.com/homekitchen/v3/add/20492959-1af8-4eb3-8fae-cff543892a28/291fb3eb-b58f-4f4c-9231-0b4206b91030' type="button" className="btn btn-outline-dark" >      
                   View Product 
                 </Link>
               </div>
@@ -131,10 +127,7 @@ const Burger = () => {
                   <i className="fa fa-star star" />
                 </div>
 
-                  <Link to='https://www.toasttab.com/homekitchen/v3/add/4f6b9379-d094-492c-aa80-5b0d5dedc8cd/291fb3eb-b58f-4f4c-9231-0b4206b91030' type="button" className="btn btn-outline-dark" >
-                  
-                    
-                  
+                  <Link to='https://www.toasttab.com/homekitchen/v3/add/4f6b9379-d094-492c-aa80-5b0d5dedc8cd/291fb3eb-b58f-4f4c-9231-0b4206b91030' type="button" className="btn btn-outline-dark" >    
                   View Product 
                 </Link>
               </div>
@@ -174,10 +167,7 @@ const Burger = () => {
                   <i className="fa fa-star star" />
                 </div>
 
-                <Link to='https://www.toasttab.com/homekitchen/v3/add/c202a5ee-16e4-47c1-810a-58848853e97f/291fb3eb-b58f-4f4c-9231-0b4206b91030' type="button" className="btn btn-outline-dark" >
-                  
-                    
-                  
+                <Link to='https://www.toasttab.com/homekitchen/v3/add/c202a5ee-16e4-47c1-810a-58848853e97f/291fb3eb-b58f-4f4c-9231-0b4206b91030' type="button" className="btn btn-outline-dark" > 
                   View Product 
                 </Link>
               </div>
