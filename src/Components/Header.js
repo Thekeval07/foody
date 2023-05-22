@@ -23,6 +23,7 @@ const Header = () => {
             <img
               className="logo"
               src={logo}
+              alt=""
               style={{
                 width: "130px",
                 position: "absolute",
@@ -32,6 +33,7 @@ const Header = () => {
                 
               }}
             ></img>
+           
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse

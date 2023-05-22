@@ -357,6 +357,14 @@ a{
   .form-btn{
     width: 30%;
   }
+  .container-about h1{
+    margin-top: 15%;
+  }
+}
+@media only screen and (max-width:368px){
+.container-about h1{
+  margin-top: 20%;
+}
 }
 @media only screen and (max-width:368px) {
   .form-btn{

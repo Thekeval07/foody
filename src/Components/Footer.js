@@ -12,7 +12,7 @@ const Footer = () => {
                                 href="https://homekitcheninc.com/"
                                 className="d-flex align-items-center  link-dark text-decoration-none"
                             >
-                                <img className="footer-logo" src={logo}></img>
+                                <img className="footer-logo" alt="" src={logo}></img>
                             </a>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-6">
