@@ -51,7 +51,8 @@ const Header = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Navbar.Collapse
+         
+        <Navbar.Collapse
             id="basic-navbar-nav "
             className="basic-navbar"
             style={{ justifyContent: "end" }}

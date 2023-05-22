@@ -343,3 +343,26 @@ a{
   margin: 0;
 }
 }
+@media only screen and (max-width:992px) and (min-width:768px){
+  .contact-page{
+    margin-top: 8%;
+  }
+
+}
+@media only screen and (max-width:768px) and (min-width:368px)  {
+  
+  .contact-page{
+    margin-top: 8%;
+  }
+  .form-btn{
+    width: 30%;
+  }
+}
+@media only screen and (max-width:368px) {
+  .form-btn{
+    width: 35%;
+    /* left: 105px; */
+    left: 31%;
+    font-size: 15px
+  }
+}

@@ -1,14 +1,77 @@
-import React from "react";
-import { CgShoppingCart } from 'react-icons/cg';
+import React,{ useState} from "react";
 
 const About = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [people, setPeople] = useState('');
+  const [eventDate, setEventDate] = useState('');
+  const [eventTime, setEventTime] = useState('');
+  const [eventDescription, setEventDescription] = useState('');
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Perform form validation
+    if (name.trim() === "") {
+     alert("Name is required");
+      return;
+    }
+    if (email.trim() === "") {
+      alert("Email is required");
+      return;
+    }
+    if (phone.trim() === "") {
+      alert("Phone number is required");
+      return;
+    }
+    if (people.trim() === "") {
+      alert("Number of people is required");
+      return;
+    }
+    if (eventDate.trim() === "") {
+      alert("Event date is required");
+      return;
+    }
+    if (eventTime.trim() === "") {
+      alert("Event time is required");
+      return;
+    }
+    if (eventDescription.trim() === "") {
+      alert("Event description is required");
+      return;
+    }
+
+
+    // Perform form submission logic
+    console.log({
+      name,
+      email,
+      phone,
+      people,
+      eventDate,
+      eventTime,
+      eventDescription,
+    });
+
+    // Reset form fields
+    setName('');
+    setEmail('');
+    setPhone('');
+    setPeople('');
+    setEventDate('');
+    setEventTime('');
+    setEventDescription('');
+    setErrorMessage("");
+  };
   return (
     <div>
       <div className="container-about">
         <h1>CATERING ORDER </h1>
         <div className="container">
           <div className="border p-4 mb-5">
-            <form>
+            <form onSubmit={handleSubmit}>
               <>
                 <div className="row ">
                   <div className="col form-margin ">
@@ -18,8 +81,11 @@ const About = () => {
                       className="form-control"
                       id="name"
                       placeholder="Name*"
-                      required
+                      
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
+                    
                   </div>
                   <div className="col">
                   <label className="mb-2" htmlFor="email">Email *</label>
@@ -28,7 +94,9 @@ const About = () => {
                       className="form-control"
                       id="email"
                       placeholder="Email*"
-                      required
+                      // required
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                 </div>
@@ -41,7 +109,9 @@ const About = () => {
                     className="form-control"
                     id="phone"
                     placeholder="Phone Number*"
-                    required
+                    // required
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
                   />
                   </div>
                   <div className="col">
@@ -51,7 +121,9 @@ const About = () => {
                   className="form-control"
                   id="people"
                   placeholder="Number of People*"
-                  required
+                  // required
+                  value={people}
+                  onChange={(e) => setPeople(e.target.value)}
                 />
                   </div>
                 </div>
@@ -63,7 +135,9 @@ const About = () => {
                   className="form-control"
                   id="event-date"
                   placeholder="dd-mm-yyyy"
-                  required
+                  // required
+                  value={eventDate}
+                  onChange={(e) => setEventDate(e.target.value)}
                 />
                   </div>
                   <div className="col">
@@ -73,11 +147,12 @@ const About = () => {
                   className="form-control"
                   id="event-time"
                   placeholder="--:-- --"
-                  required
+                  // required
+                  value={eventTime}
+                  onChange={(e) => setEventTime(e.target.value)}
                 />
                   </div>
-                </div>
-                
+                </div> 
               </>
 
              
@@ -89,10 +164,12 @@ const About = () => {
                   id="event-description"
                   rows="3"
                   placeholder="Describe the event"
-                  required
+                  // required
+                  value={eventDescription}
+                  onChange={(e) => setEventDescription(e.target.value)}
                 ></textarea>
               </div>
-              {/* Additional checkboxes */}
+             
               <h4 className="form-event mt-4">Will Your Event Require:</h4>
               <div className="form-check">
                 <input
@@ -134,9 +211,10 @@ const About = () => {
                   Wait Staff
                 </label>
               </div>
+              
 
               <h6 className="mt-3 mb-4 form-header">** MAY INDLUDE ADDITIONAL CHARGES **</h6>
-              {/* <span class="border-top">nujnytyhybt</span> */}
+              
               <p className="form-p border-top" > You will be contacted within 24 hours</p>
               <div className="col-6 center">
               <button type="submit" className="btn form-btn">
@@ -148,7 +226,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
