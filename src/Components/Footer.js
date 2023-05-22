@@ -9,8 +9,8 @@ const Footer = () => {
                     <footer className="row pt-5 border-top">
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <a
-                                href="https://homekitcheninc.com/"
-                                className="d-flex align-items-center  link-dark text-decoration-none"
+                                href="#"
+                                className="d-flex align-items-center  link-dark "
                             >
                                 <img className="footer-logo" alt="" src={logo}></img>
                             </a>

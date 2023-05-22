@@ -34,7 +34,7 @@ const Burger = () => {
               <div className="card-body bg-light text-center">
                 <div className="mb-2">
                   <h6 className="font-weight-semibold mb-2">
-                    <a href="#" className="text-default mb-2" data-abc="true">
+                    <a href="#" className="text-default " data-abc="true">
                       The All American
                     </a>
                   </h6>
