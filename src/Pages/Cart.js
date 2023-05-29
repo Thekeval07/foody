@@ -8,10 +8,10 @@ const Cart = () => {
         <link
           rel="stylesheet"
           type="text/css"
-          href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+          href=""
         />
-        <div className="container bootstrap snippets bootdey">
-          <div className="col-md-12 col-sm-8 mt-5 mb-5 content">
+        <div className="container-fluid ">
+          <div className="col-md-12 col-sm-12 mt-5 mb-5 content">
             <div className="row">
               <div className="col-md-12">
                 <ol className="breadcrumb">

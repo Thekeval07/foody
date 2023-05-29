@@ -72,6 +72,9 @@ const Footer = () => {
                             </a>
                         </div>
                         </div>
+                        <div>
+                            helllo
+                        </div>
                     </footer>
                 </div>
 
