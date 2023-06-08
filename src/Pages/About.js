@@ -10,7 +10,7 @@ const About = () => {
   const [eventDescription, setEventDescription] = useState("");
   const [isUpdateMode, setIsUpdateMode] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
-  
+
   // const [formValues, setFormValues] = useState({});
 
   const handleSubmit = (e) => {
@@ -51,77 +51,75 @@ const About = () => {
       if (formDataJson) {
         const storedData = JSON.parse(formDataJson);
         // Update the form fields with the stored data
-        setName(storedData.name);
-        setEmail(storedData.email);
-        setPhone(storedData.phone);
-        setPeople(storedData.people);
-        setEventDate(storedData.eventDate);
-        setEventTime(storedData.eventTime);
-        setEventDescription(storedData.eventDescription);
+        setName(storedData?.name);
+        setEmail(storedData?.email);
+        setPhone(storedData?.phone);
+        setPeople(storedData?.people);
+        setEventDate(storedData?.eventDate);
+        setEventTime(storedData?.eventTime);
+        setEventDescription(storedData?.eventDescription);
       }
       setIsEditing(false);
     } else {
-    // Perform form submission logic
-    const formData = {
-      name,
-      email,
-      phone,
-      people,
-      eventDate,
-      eventTime,
-      eventDescription,
+      // Perform form submission logic
+      const formData = {
+        name,
+        email,
+        phone,
+        people,
+        eventDate,
+        eventTime,
+        eventDescription,
+      };
+      console.log(formData);
+      const formDatajson = JSON.stringify(formData);
+      sessionStorage.setItem("formData", formDatajson);
+
+      // const get = sessionStorage.getItem('formData', formDatajson)
+      // Reset form fields
+      setName("");
+      setEmail("");
+      setPhone("");
+      setPeople("");
+      setEventDate("");
+      setEventTime("");
+      setEventDescription("");
     };
-    console.log(formData);
-    const formDatajson = JSON.stringify(formData);
-    sessionStorage.setItem("formData", formDatajson);
-
-    // const get = sessionStorage.getItem('formData', formDatajson)
-    // Reset form fields
-    setName("");
-    setEmail("");
-    setPhone("");
-    setPeople("");
-    setEventDate("");
-    setEventTime("");
-    setEventDescription("");
-  };
-}
+  }
   // const handleChange = (e) => {
-  //   setFormValues({ ...formValues, [e.target.name]: e.target.value });
+  //   setFormValues({ ..?.formValues, [e.target.name]: e.target.value });
+  // };??
+
+  // const handleUpdate = () => {
+
+  //   const formData = JSON.parse(sessionStorage.getItem("formData"));
+  //   setName(formData?.name);
+  //   setEmail(formData?.email);
+  //   setPhone(formData?.phone);
+  //   setPeople(formData?.people);
+  //   setEventDate(formData?.eventDate);
+  //   setEventTime(formData?.eventTime);
+  //   setEventDescription(formData?.eventDescription);
+
+  //   setIsUpdateMode(true);
+
   // };
-
-  
- 
-  const handleUpdate = () => {
-    
-    const formData = JSON.parse(sessionStorage.getItem("formData"));
-    setName(formData.name);
-    setEmail(formData.email);
-    setPhone(formData.phone);
-    setPeople(formData.people);
-    setEventDate(formData.eventDate);
-    setEventTime(formData.eventTime);
-    setEventDescription(formData.eventDescription);
-
-    setIsUpdateMode(true);
-    
-  };
   useEffect(() => {
-    
+
     const storedFormData = sessionStorage.getItem("formData");
     if (storedFormData) {
       const formData = JSON.parse(storedFormData);
-      setName(formData.name);
-      setEmail(formData.email);
-      setPhone(formData.phone);
-      setPeople(formData.people);
-      setEventDate(formData.eventDate);
+      setName(formData?.name);
+      setEmail(formData?.email);
+      setPhone(formData?.phone);
+      setPeople(formData?.people);
+      setEventDate(formData?.eventDate);
       setEventTime(formData.eventTime);
       setEventDescription(formData.eventDescription);
     }
   }, []);
- 
-  
+
+
 
 
   return (
@@ -289,22 +287,18 @@ const About = () => {
                 {" "}
                 You will be contacted within 24 hours
               </p>
-              {isUpdateMode ? (
-  <button type="submit" className="btn form-btn">
-    UPDATE
-  </button>
-) : (
-  <button type="button" className="btn form-btn" onClick={handleUpdate}>
-    UPDATE FORM
-  </button>
-)}
+
+              <button type="submit" className="btn form-btn" >
+                {isEditing ? "Update data" : "Add data"}
+              </button>
+
               <div className=" col-6">
-                
-                  <button type="submit" className="btn " onClick={handleUpdate}>
-                    EDIT
-                  </button>
-                
-                  
+
+                <button type="submit" className="btn " onClick={() => setIsEditing(true)}>
+                  EDIT
+                </button>
+
+
               </div>
             </form>
           </div>
