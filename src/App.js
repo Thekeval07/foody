@@ -13,11 +13,35 @@ import Salad from "./Pages/Salad";
 import ColdDrink from "./Pages/ColdDrink";
 import Profile from "./Pages/Profile";
 import Cart from "./Pages/Cart";
+import { PacmanLoader } from "react-spinners";
+import { useEffect } from "react";
+import { useState } from "react";
+
 
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
+
   return (
     <div className="App">
+      {loading ? (
+        <PacmanLoader 
+          color={"#fc860b"}
+          loading={loading}
+          size={30}
+          style={{ borderColor: "#fc860b", position : 'absolute' , 
+          top : '50%' ,
+          left : '50%' ,
+          transform : 'translate (-50% , -50%)',
+           }}
+        />
+      ) : (
        <BrowserRouter>
         <Header /> 
         <Routes>
@@ -35,6 +59,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      )}
     </div>
   );
 }

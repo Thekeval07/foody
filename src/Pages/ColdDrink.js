@@ -1,11 +1,8 @@
 import React from "react";
-import drink_1 from '../image/s_1.jpg'
-import drink_2 from '../image/v_1.jpg'
-import drink_3 from '../image/c_1.jpg'
-import drink_4 from '../image/sprite.jpg'
-import drink_5 from '../image/poland.jpg'
-import { Link } from "react-router-dom";
+import data from "../Data.json";
+
 const ColdDrink = () => {
+  console.log(data, "data");
   return (
     <div>
       <div className="container d-flex justify-content-center  mb-50">
@@ -15,215 +12,59 @@ const ColdDrink = () => {
               <h1 className="product-name">COLD DRINK</h1>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3/add/ec0da94b-4ca3-4576-acc5-8349de4f6293/393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
-              <div className="card-body">
-                <div className="card-img-actions">
-                  {/* <div className="inner"> */}
-                    <img
-                      src={drink_1}
-                      className="card-img img-fluid"
-                      width={96}
-                      height={350}
-                      alt=""
-                    />
-                  {/* </div> */}
-                </div>
-              </div>
-              <div className="card-body bg-light text-center">
-                <div className="mb-2">
-                  <h6 className="font-weight-semibold mb-2">
-                    <a href="" className="text-default mb-2" data-abc="true">
-                      Vanilla Milkshake
-                    </a>
-                  </h6>
-                  <a href="" className="text-muted" data-abc="true">
-                    
-                  </a>
-                </div>
-                <h3 className="mb-0 font-weight-semibold">$6.00</h3>
 
-                <div>
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3/add/ec0da94b-4ca3-4576-acc5-8349de4f6293/393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
-                  View Product 
-                </Link>
-              </div>
-              </Link>
-            </div>
-          </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
-              <div className="card-body">
-                <div className="card-img-actions">
-                  {/* <div className="inner"> */}
-                    <img
-                      src={drink_2}
-                      className="card-img img-fluid"
-                      width={96}
-                      height={350}
-                      alt=""
-                    />
-                  {/* </div> */}
-                </div>
-              </div>
-              <div className="card-body bg-light text-center">
-                <div className="mb-2">
-                  <h6 className="font-weight-semibold mb-2">
-                    <a href="" className="text-default mb-2" data-abc="true">
-                      Strawberry Milkshake 
-                    </a>
-                  </h6>
-                  <a href="" className="text-muted" data-abc="true">
-                    
+          {data.cold_drink.map((item) => {
+            return (
+              <div className="col-md-4 col-sm-6" key={item.id}>
+                <div className="card">
+                  <a href={item.link}>
+                    <div className="card-body">
+                      <div className="card-img-actions">
+                        <img
+                          src={item.src}
+                          className="card-img img-fluid"
+                          width={96}
+                          height={350}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div className="card-body bg-light text-center">
+                      <div className="mb-2">
+                        <h6 className="font-weight-semibold mb-2">
+                          <a
+                            href=""
+                            className="text-default mb-2"
+                            data-abc="true"
+                          >
+                            {item.product_name}
+                          </a>
+                        </h6>
+                        <a href="" className="text-muted" data-abc="true"></a>
+                      </div>
+                      <h3 className="mb-0 font-weight-semibold">
+                        {item.price}
+                      </h3>
+                      <div>
+                        <i className="fa fa-star star" />
+                        <i className="fa fa-star star" />
+                        <i className="fa fa-star star" />
+                        <i className="fa fa-star star" />
+                      </div>
+                      <a
+                        href={item.link}
+                        type="button"
+                        className="btn btn-outline-dark"
+                      >
+                        View Product
+                      </a>
+                    </div>
                   </a>
                 </div>
-                <h3 className="mb-0 font-weight-semibold">$6.00</h3>
-                <div>
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                </div>
-                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
-                  View Product 
-                </Link>
               </div>
-              </Link>
-            </div>
-          </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
-              <div className="card-body">
-                <div className="card-img-actions">
-                  {/* <div className="inner"> */}
-                    <img
-                      src={drink_3}
-                      className="card-img img-fluid"
-                      width={96}
-                      height={350}
-                      alt=""
-                    />
-                  {/* </div> */}
-                </div>
-              </div>
-              <div className="card-body bg-light text-center">
-                <div className="mb-2">
-                  <h6 className="font-weight-semibold mb-2">
-                    <a href="" className="text-default mb-2" data-abc="true">
-                     Chocolate Milkshake 
-                    </a>
-                  </h6>
-                  <a href="" className="text-muted" data-abc="true">
-                    
-                  </a>
-                </div>
-                <h3 className="mb-0 font-weight-semibold">$6.00</h3>
-                <div>
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                </div>
-
-                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
-                  View Product 
-                </Link>
-              </div>
-              </Link>
-            </div>
-          </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
-              <div className="card-body">
-                <div className="card-img-actions">
-                  {/* <div className="inner"> */}
-                    <img
-                      src={drink_4}
-                      className="card-img img-fluid"
-                      width={96}
-                      height={350}
-                      alt=""
-                    />
-                  {/* </div> */}
-                </div>
-              </div>
-              <div className="card-body bg-light text-center">
-                <div className="mb-2">
-                  <h6 className="font-weight-semibold mb-2">
-                    <a href="" className="text-default mb-2" data-abc="true">
-                     Sprite 
-                    </a>
-                  </h6>
-                  <a href="" className="text-muted" data-abc="true">
-                    
-                  </a>
-                </div>
-                <h3 className="mb-0 font-weight-semibold">$1.50</h3>
-                <div>
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                </div>
-
-                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
-                  View Product 
-                </Link>
-              </div>
-              </Link>
-            </div>
-          </div>
-          <div className="col-md-4 col-sm-6">
-            <div className="card">
-            <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f'>
-              <div className="card-body">
-                <div className="card-img-actions">
-                  {/* <div className="inner"> */}
-                    <img
-                      src={drink_5}
-                      className="card-img img-fluid"
-                      width={96}
-                      height={350}
-                      alt=""
-                    />
-                  {/* </div> */}
-                </div>
-              </div>
-              <div className="card-body bg-light text-center">
-                <div className="mb-2">
-                  <h6 className="font-weight-semibold mb-2">
-                    <a href="" className="text-default mb-2" data-abc="true">
-                     Poland Springs
-                    </a>
-                  </h6>
-                  <a href="" className="text-muted" data-abc="true">
-                    
-                  </a>
-                </div>
-                <h3 className="mb-0 font-weight-semibold">$1.50</h3>
-                <div>
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                  <i className="fa fa-star star" />
-                </div>
-
-                <Link to='https://www.toasttab.com/homekitchen/v3#db2b9c696-da84-4f10-ad7f-a93edae53f86d393a567b-ee1d-4203-bf3c-bec135a6dd8f' type="button" className="btn btn-outline-dark" >
-                  View Product 
-                </Link>
-              </div>
-              </Link>
-            </div>
-          </div>
+            );
+          })}
+          
         </div>
       </div>
     </div>
